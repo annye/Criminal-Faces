@@ -42,12 +42,12 @@ def number_pcs(x):
         var_explained.append(tot_var) 
         plt.plot(pcs,totexp_var,'r') 
         plt.plot(pcs,totexp_var,'bs') 
-    plt.xlabel('No. of Principal Components',fontsize = 13) 
-    plt.ylabel('Total variance explained',fontsize = 13) 
+        plt.xlabel('No. of Principal Components',fontsize = 13) 
+        plt.ylabel('Total variance explained',fontsize = 13) 
  
-    plt.xticks(pcs,fontsize=13) 
-    plt.yticks(fontsize=13) 
-    plt.show() 
+        plt.xticks(pcs,fontsize=13) 
+        plt.yticks(fontsize=13) 
+        plt.show() 
 
 
 
